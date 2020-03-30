@@ -7,5 +7,9 @@
 #  return newArray
 #end
 def square_array(array)
-  array.collect{ |number| number
+  newArray=[]
+  array.collect{ |number|
+    number**=2
+    newArray << number
+  }
 end
