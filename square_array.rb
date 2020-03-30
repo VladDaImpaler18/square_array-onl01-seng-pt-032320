@@ -12,4 +12,5 @@ def square_array(array)
     number**=2
     newArray << number
   }
+  return newArray
 end
